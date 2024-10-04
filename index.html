@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Store</h1>
+        <div class="product">
+            <h2>Dress</h2>
+            <img src="https://www.bullionknot.com/cdn/shop/files/Georgiamin_7.jpg?v=1715410709" alt="" width="40%">
+            <p>$26.99</p>
+            <button class="add-to-cart" data-product="Product Name" data-price="29.99">Add to Cart</button>
+        </div>
+        
+        <div class="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
